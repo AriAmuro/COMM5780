@@ -1,45 +1,33 @@
-# Aria 的作品集：使用说明
+# Aria 的网站：简单修改指南
 
-这是原创、轻量的 HTML/CSS 草稿模板，不需要安装软件包，网站内容为英文。
+网站地址：https://ariamuro.github.io/COMM5780/
 
-## 1. 本地打开
-下载仓库 ZIP 并解压，在文件夹中双击 index.html。四个菜单链接可以切换页面。也可以在 VS Code 中打开文件夹，用 Live Server 预览。
+## 文件对应关系
+- index.html：首页的两句英文和你的画
+- about.html：头像和个人介绍
+- work.html：三个本科项目的英文标题与二维码
+- contact.html：邮箱
+- portfolio.css：四页共用的字体、颜色和排版
+- images/：网站用到的五张图片
 
-## 2. 文件与作用
-- index.html：首页
-- about.html：自我介绍
-- work.html：作品与可展开的项目说明
-- contact.html：联系页面，目前链接到公开 GitHub 个人主页
-- portfolio.css：所有页面的配色、字体、布局、手机适配
-- .nojekyll：让 GitHub Pages 直接发布静态文件
+## 在电脑上预览
+从 GitHub 仓库点击 Code → Download ZIP，解压。用 VS Code 的 File → Open Folder 打开解压后的整个文件夹。在文件管理器中双击 index.html 即可在浏览器中预览。修改并保存文件后，刷新浏览器就能看到本地变化。
 
-## 3. 第一次发布
-打开 https://github.com/AriAmuro/COMM5780/settings/pages
-在 Build and deployment → Source 中选 Deploy from a branch。
-Branch 选 main，文件夹选 /(root)，点击 Save。
-发布后通过 Pages 页面的 Visit site 查看。默认地址为 https://ariamuro.github.io/COMM5780/ 。首次发布或更新可能需要约 10 分钟。
-当前文件上传不等于 Pages 一定已经启用，以 Settings → Pages 显示的状态为准。
+## 怎样改文字
+在对应 HTML 文件中修改 <h1>、<h2>、<p> 标签之间的文字。请保留标签本身。
 
-## 4. 以后怎样修改
-在 GitHub 打开目标 HTML 文件 → 点击铅笔 Edit → 修改英文文字 → Commit changes。
-或者下载全部文件，在 VS Code 修改，随后在 GitHub 的 Add file → Upload files 上传修改后的文件。确保 index.html 在仓库最外层，不要把整套文件多包在一层文件夹里。
-配色在 portfolio.css 开头的 :root 中修改：--paper 是底色，--ink 是主文字与按钮，--green 是绿色装饰。
+## 怎样改图片
+把新图片放进 images 文件夹，然后修改 HTML 中 img 的 src 路径。alt 是图片内容的简短说明。
 
-## 5. 增加自己的图片
-上传例如 artwork.jpg 到仓库根目录，在 HTML 中加入：
-<img src="artwork.jpg" alt="A short description of my artwork" style="max-width:100%;height:auto">
-使用你自己的图片，或有明确使用许可的图片。当前所有图案为 CSS 装饰，没有使用他人的作品图片。
+## 怎样改颜色
+打开 portfolio.css。body 中 color 是文字颜色，background 是白色到灰蓝色的背景渐变。想换成纯白底，可以把 background 那一行改成 background: #fff;。
 
-## 6. 添加邮箱
-contact.html 中找到 “My email contact will be added here soon.”，将其替换为：
-<a href="mailto:YOUR_EMAIL">Email me</a>
-把 YOUR_EMAIL 换成你愿意公开的邮箱。mailto 会打开访问者的邮件软件，不是网站后台收件系统。
+## 怎样更新在线网站
+本地修改不会自动上传。进入 GitHub 仓库，使用 Add file → Upload files 上传改好的文件，保持原来的文件路径，再点击 Commit changes。也可以在 GitHub 中打开文件，点击铅笔直接编辑，最后 Commit changes。GitHub Pages 会自动发布更新。
 
-## 7. 参考模板与学习资料
-- Story：https://html5up.net/story （单页展示）
-- Strata：https://html5up.net/strata （作品集）
-- GitHub Pages 官方说明：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-现成模板请遵守各自授权条款；此草稿是为 Aria 单独编写的简化版本。
+## 作品标题对应
+江中药业策划案：Jiangzhong Pharmaceutical / Campaign Proposal
+《流量下的煎守》：Cooking Through the Hype / Food Documentary（展示用英文译名）
+《宿舍规则怪谈》：Dormitory Rules: A Horror Story / AI Short Drama（展示用英文译名）
 
-## 8. 内容说明
-作品区是明确标注的占位区域，尚未展示完成项目。未来先添加 1–3 个真实作品，每个写清 Title / What I made / My role / What I learned，再逐步完善。当前联系页没有发布私人邮箱或电话号码。
+三个二维码使用上传的原图；首页的画另存为较小的 JPG 供网页加载，完整画面和比例保持不变。参考截图不会放进网站。
