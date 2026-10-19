@@ -205,3 +205,30 @@ p {
   font-size: 16px;
 }
 
+
+/* Later workshop entries use the same title size and body spacing. */
+.reflection + .reflection {
+  margin-top: 56px;
+}
+
+.reflection h2.reflection-title {
+  margin: 0 0 18px;
+  color: #222;
+  font-size: 24px;
+}
+
+.reflection figure {
+  margin: 28px 0 0;
+}
+
+.reflection img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.reflection figcaption {
+  margin-top: 10px;
+  color: #4d5966;
+  font-size: 13px;
+}
