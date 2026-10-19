@@ -1,4 +1,4 @@
-/* Shared colours, font and spacing for all four pages. */
+/* Shared colours, font and spacing for all pages. */
 * {
   box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ a:focus-visible {
   outline-offset: 6px;
 }
 
-/* Header: name, four page links, one thin line. */
+/* Header: name, page links, one thin line. */
 header {
   width: 92%;
   max-width: 1400px;
@@ -48,8 +48,13 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   gap: 16px;
   padding-bottom: 25px;
+}
+
+nav a {
+  white-space: nowrap;
 }
 
 nav a[aria-current="page"] {
@@ -186,4 +191,32 @@ p {
     max-width: 340px;
     margin: auto;
   }
+}
+
+/* Workshop reflection: short text and one simple illustration. */
+.reflection {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.reflection h2 {
+  font-size: 16px;
+  margin: 0 0 28px;
+  color: #4d5966;
+}
+
+.reflection figure {
+  margin: 32px 0 0;
+}
+
+.reflection img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.reflection figcaption {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #4d5966;
 }
