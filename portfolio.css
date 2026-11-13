@@ -228,3 +228,39 @@ p {
   height: auto;
 }
 
+
+/* The dogs sit on and peek over a simple page edge. */
+.dog-companions {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  max-width: 900px;
+  margin: 64px auto 0;
+  border-bottom: 1px solid #8f99a3;
+}
+.dog-sitting {
+  display: block;
+  width: 170px;
+  height: auto;
+  margin-left: 36px;
+  position: relative;
+  bottom: -1px;
+}
+.dog-peeking {
+  width: 235px;
+  position: relative;
+  bottom: -14px;
+  margin-right: 36px;
+}
+.dog-peeking img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 700px) {
+  .dog-companions { margin-top: 40px; gap: 20px; }
+  .dog-sitting { width: 30%; max-width: 145px; margin-left: 8px; }
+  .dog-peeking { width: 46%; max-width: 200px; bottom: -10px; margin-right: 8px; }
+}
