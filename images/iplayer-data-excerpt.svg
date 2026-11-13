@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1196" height="674" viewBox="0 0 1196 674">
+  <title>BBC iPlayer CSV export excerpt</title>
+  <desc>Five original rows and four columns, with blank cells retained.</desc>
+  <rect width="1196" height="674" fill="white"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#000">
+    <text x="28" y="48" font-size="28">BBC iPlayer - CSV export excerpt</text>
+    <text x="28" y="90" font-size="20">Source: https://www.bbc.co.uk/iplayer</text>
+    <rect x="28" y="122" width="330" height="54" fill="#e6ebf0" stroke="#a9b5c2"/>
+    <text x="42" y="157" font-size="22">title</text>
+    <rect x="358" y="122" width="330" height="54" fill="#e6ebf0" stroke="#a9b5c2"/>
+    <text x="372" y="157" font-size="22">data</text>
+    <rect x="688" y="122" width="330" height="54" fill="#e6ebf0" stroke="#a9b5c2"/>
+    <text x="702" y="157" font-size="22">data2</text>
+    <rect x="1018" y="122" width="150" height="54" fill="#e6ebf0" stroke="#a9b5c2"/>
+    <text x="1032" y="157" font-size="22">data11</text>
+    <rect x="28" y="176" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="42" y="211" font-size="22">Crime Scene International</text>
+    <rect x="358" y="176" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="372" y="211" font-size="22">Beck</text>
+    <rect x="688" y="176" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="702" y="211" font-size="22">The Tourist</text>
+    <rect x="1018" y="176" width="150" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="1032" y="211" font-size="22">View all</text>
+    <rect x="28" y="270" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="42" y="305" font-size="22">Stream Every Episode</text>
+    <rect x="358" y="270" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <rect x="688" y="270" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <rect x="1018" y="270" width="150" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="1032" y="305" font-size="22">View all</text>
+    <rect x="28" y="364" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="42" y="399" font-size="22">Most Popular Today</text>
+    <rect x="358" y="364" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <rect x="688" y="364" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <rect x="1018" y="364" width="150" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="1032" y="399" font-size="22">View all</text>
+    <rect x="28" y="458" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="42" y="493" font-size="22">Must-Watch Movies</text>
+    <rect x="358" y="458" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <rect x="688" y="458" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <rect x="1018" y="458" width="150" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="1032" y="493" font-size="22">View all</text>
+    <rect x="28" y="552" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="42" y="587" font-size="22">Documentaries</text>
+    <rect x="358" y="552" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="372" y="587" font-size="22">Stacey Dooley: Fallen</text>
+    <text x="372" y="615" font-size="22">Women</text>
+    <rect x="688" y="552" width="330" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="702" y="587" font-size="22">Damilola: The Untold Story</text>
+    <rect x="1018" y="552" width="150" height="94" fill="white" stroke="#c8ced5"/>
+    <text x="1032" y="587" font-size="22">View all</text>
+  </g>
+</svg>
